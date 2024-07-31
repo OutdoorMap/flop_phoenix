@@ -1154,7 +1154,6 @@ defmodule Flop.Phoenix do
   end
 
   slot :foot,
-    default: nil,
     doc: """
     You can optionally add a `foot`. The inner block will be rendered inside
     a `tfoot` element.
